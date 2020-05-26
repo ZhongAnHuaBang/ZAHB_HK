@@ -12,7 +12,7 @@
 
 #define XXALERT(msg) [HKAlertView showMessage:msg];
 
-typedef void(^CancelCallBack)();
+typedef void(^CancelCallBack)(void);
 typedef void(^OtherCallBack)(NSInteger buttonIndex);
 
 @interface HKAlertView : NSObject<UIAlertViewDelegate>
